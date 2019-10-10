@@ -13,8 +13,25 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
-  transition: all 200ms linear ;
-  position: translate(50, 50);
+  transition: all 200ms linear;
+  position: relative;
+}
+
+.polaroid:nth-child(1) {
+  transition: all 200ms linear;
+  transform: translate(0, 0);
+  transform: rotate(-10deg);
+}
+
+.polaroid:nth-child(2) {
+  transition: all 200ms linear;
+  transform: translate(0, 0);
+  transform: rotate(-10deg);
+}
+
+.polaroid:nth-child(3) {
+  transition: all 200ms linear;
+  transform: translate(0, 0);
   transform: rotate(-10deg);
 }
 
