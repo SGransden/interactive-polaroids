@@ -15,24 +15,25 @@ html {
 
   transition: all 200ms linear;
   position: relative;
+  transform-origin: 50px 50px;
 }
 
 .polaroid:nth-child(1) {
-  transition: all 200ms linear;
-  transform: translate(0, 0);
-  transform: rotate(-10deg);
+  transform: rotate(-15deg);
+  position: absolute;
+  transition: .25s all;
 }
 
 .polaroid:nth-child(2) {
-  transition: all 200ms linear;
-  transform: translate(0, 0);
-  transform: rotate(-10deg);
+  transform: rotate(2deg);
+  transition: .25s all;
+  position: absolute;
 }
 
 .polaroid:nth-child(3) {
-  transition: all 200ms linear;
-  transform: translate(0, 0);
-  transform: rotate(-10deg);
+  transition: 25s all;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 .polaroid > img {
