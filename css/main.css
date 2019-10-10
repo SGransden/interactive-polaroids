@@ -20,21 +20,21 @@ html {
 
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
-  left: 32%;
-  top: 37%;
+  left: 20%;
+  top: 100px;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(2deg);
-  left: 43%;
-  top: 40%;
+  left: 30%;
+  top: 150px;
   z-index: 2;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(25deg);
-  left: 55%;
-  top: 27%;
+  transform: rotate(30deg);
+  left: 43%;
+  top: 60px;
 }
 
 .polaroid > img {
