@@ -14,26 +14,27 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   transition: all 200ms linear;
-  position: relative;
+  position: absolute;
   transform-origin: 50px 50px;
 }
 
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
-  position: absolute;
-  transition: .25s all;
+  left: 30%;
+  top: 30%;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(2deg);
-  transition: .25s all;
-  position: absolute;
+  left: 43%;
+  top: 40%;
+  z-index: 2;
 }
 
 .polaroid:nth-child(3) {
-  transition: 25s all;
   transform: rotate(25deg);
-  position: absolute;
+  left: 54%;
+  top: 20%;
 }
 
 .polaroid > img {
